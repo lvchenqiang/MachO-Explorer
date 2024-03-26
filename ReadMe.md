@@ -26,6 +26,17 @@ Mach-O Explorer should deploy back to OS X 10.11 (and possibly further) but is *
 
 ```
 git clone --recursive https://github.com/DeVaukz/MachO-Explorer
+
+
+cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/
+
+sudo mkdir arc
+cd  arc
+sudo git clone https://github.com/kamyarelyasi/Libarclite-Files.git .
+
+sudo chmod +x *
+
+
 ```
 
 Open the `MachOExplorer.xcodeproj` file, select the `MachOExplorer` target and click Run.
